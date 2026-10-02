@@ -1,0 +1,12 @@
+[
+  {
+    "command": "python3 path_engine.py examples/security.json api-security --completed linux",
+    "exit": 0,
+    "output": " 1. networking               20 hours\n 2. http                     8 hours\n 3. python                   16 hours\n 4. api-security             24 hours\n\n4 steps; 68 estimated hours remaining.\nEffort estimates come from the curriculum; they are not measured learning times.\n"
+  },
+  {
+    "command": "python3 -m unittest discover -s tests -v",
+    "exit": 0,
+    "output": "test_completed_skill_removed (test_path.PathTests.test_completed_skill_removed) ... ok\ntest_cycle_even_if_completed (test_path.PathTests.test_cycle_even_if_completed) ... ok\ntest_invalid_effort (test_path.PathTests.test_invalid_effort) ... ok\ntest_shared_prerequisite_once (test_path.PathTests.test_shared_prerequisite_once) ... ok\ntest_unknown_prerequisite (test_path.PathTests.test_unknown_prerequisite) ... ok\ntest_unknown_target (test_path.PathTests.test_unknown_target) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+  }
+]

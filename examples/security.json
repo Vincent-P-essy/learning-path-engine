@@ -1,0 +1,7 @@
+{
+  "linux": {"hours": 12, "requires": []},
+  "python": {"hours": 16, "requires": []},
+  "networking": {"hours": 20, "requires": ["linux"]},
+  "http": {"hours": 8, "requires": ["networking"]},
+  "api-security": {"hours": 24, "requires": ["http", "python"]}
+}
